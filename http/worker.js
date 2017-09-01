@@ -1,5 +1,5 @@
 let http = require('http');
-let logger = require('logger');
+let logger = require('log');
 
 let server = http.createServer(function(req, res){
     res.writeHead(200, {'Content-Type': 'text/plain'});
